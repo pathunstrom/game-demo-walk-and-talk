@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.3
+Name: walkandtalk
+Formal-Name: Walk and Talk
+App-ID: dev.thunstrom.piper.walkandtalk
+Version: 0.0.1
+Home-page: https://piper.thunstrom.dev/walkandtalk
+Author: Piper Thunstrom
+Author-email: pathunstrom@gmail.com
+Summary: A tiny game demo for ppb 0.11

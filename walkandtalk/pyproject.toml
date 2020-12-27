@@ -1,0 +1,35 @@
+[tool.briefcase]
+project_name = "Walk and Talk"
+bundle = "dev.thunstrom.piper"
+version = "0.0.1"
+url = "https://piper.thunstrom.dev/walkandtalk"
+license = "Other"
+author = 'Piper Thunstrom'
+author_email = "pathunstrom@gmail.com"
+
+[tool.briefcase.app.walkandtalk]
+formal_name = "Walk and Talk"
+description = "A tiny game demo for ppb 0.11"
+icon = "src/walkandtalk/resources/walkandtalk"
+sources = ['src/walkandtalk']
+requires = [
+    'ppb~=0.11.0b1',
+]
+
+
+[tool.briefcase.app.walkandtalk.macOS]
+requires = []
+
+[tool.briefcase.app.walkandtalk.linux]
+requires = []
+system_requires = []
+
+[tool.briefcase.app.walkandtalk.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.walkandtalk.iOS]
+requires = []
+
+[tool.briefcase.app.walkandtalk.android]
+requires = []
